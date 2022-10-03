@@ -2,6 +2,8 @@
 
 A shopping webpage created with HTML, CSS, JS and React.
 
+[Live Demo](https://wenceslauu.github.io/odin-shopping-cart/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
