@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route, HashRouter } from 'react-router-dom'
 import Layout from './Layout'
 import Home from './Home'
 import Shop from './Shop'
@@ -58,7 +58,7 @@ const RouteSwitch = () => {
         }}
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path='/' element={<Layout />}>
                     <Route index element={<Home />} />
@@ -67,7 +67,7 @@ const RouteSwitch = () => {
                     <Route path='cart' element={<Cart products={products} cart={cart} />} />
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
